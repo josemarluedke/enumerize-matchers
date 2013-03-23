@@ -1,7 +1,8 @@
 require "enumerize/matchers/version"
+require "enumerize/matchers/enumerize_matcher"
 
 module Enumerize
   module Matchers
-    # Your code goes here...
   end
 end
+
