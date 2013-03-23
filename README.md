@@ -1,6 +1,6 @@
 # Enumerize Matchers
 
-Rspec matchers for enumerize because we need tests.
+Rspec matchers for [enumerize](https://github.com/brainspec/enumerize), because we need tests.
 
 ## Installation
 
@@ -18,7 +18,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+it { should enumerize(:sex).in(:male, :female).with_default(:male) }
+```
+
+## Todo
+ 
+- Add appropriate tests
+
+## Credits
+
+- [Josemar Davi Luekde](http://github.com/josemarluedke)
+- [Wojtek Majewski](http://github.com/jumski) for this [gist](https://gist.github.com/jumski/2318858).
 
 ## Contributing
 
