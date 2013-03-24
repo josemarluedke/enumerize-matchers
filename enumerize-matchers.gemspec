@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Josemar Davi Luedke"]
   spec.email         = ["josemarluedke@gmail.com"]
   spec.description   = %q{Rspec matchers for enumerize}
-  spec.summary       = %q{Rspec matchers for enumerize because we need tests}
+  spec.summary       = %q{Rspec matchers for enumerize, because we need tests.}
   spec.homepage      = "https://github.com/josemarluedke/enumerize-matchers"
   spec.license       = "MIT"
 
@@ -18,6 +18,6 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
+  spec.add_dependency "rspec"
   spec.add_development_dependency "bundler", "~> 1.3"
-  spec.add_development_dependency "rake"
 end
