@@ -1,4 +1,4 @@
-# Enumerize Matchers
+# Enumerize matchers
 
 Rspec matchers for [enumerize](https://github.com/brainspec/enumerize), because we need tests.
 
@@ -12,10 +12,6 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install enumerize-matchers
-
 ## Usage
 
 ```
@@ -24,7 +20,7 @@ it { should enumerize(:sex).in(:male, :female).with_default(:male) }
 
 ## Todo
  
-- Add appropriate tests
+- Add appropriate tests (Yes, this is fuck**g weird.)
 
 ## Credits
 
