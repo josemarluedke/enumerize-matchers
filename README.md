@@ -34,3 +34,9 @@ it { should enumerize(:sex).in(:male, :female).with_default(:male) }
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## License
+
+Copyright (c) 2013 Josemar Davi Luedke
+
+Licensed under the MIT license (see LICENSE.txt file)
