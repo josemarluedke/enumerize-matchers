@@ -37,6 +37,6 @@ it { should enumerize(:sex).in(:male, :female).with_default(:male) }
 
 ## License
 
-Copyright (c) 2013 Josemar Davi Luedke
+Copyright (c) 2013 Josemar Luedke
 
 Licensed under the MIT license (see LICENSE.txt file)
