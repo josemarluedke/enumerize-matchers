@@ -30,7 +30,7 @@ RSpec::Matchers.define :enumerize do |attribute|
     desc
   end
 
-  failure_message_for_should do |text|
+  failure_message do |text|
     if @in and not in_values_matches?
       msg = "expected :#@attribute to allow values #{human_readable_values(expected_in_values)}"
       msg+= ", but it allows #{human_readable_values(actual_in_values)} instead"
